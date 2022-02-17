@@ -1,9 +1,8 @@
 // Downwards
 //
-// document.getElementById
+// document.getElementById // document only method
 // document.getElementsByClassName
 // document.getElementsByTagName
-// document.getElementsByName
 // document.querySelector
 // document.querySelectorAll
 // element.children
@@ -22,10 +21,17 @@
 
 
 
-function changeColor(element) {
-    element.style.backgroundColor = 'yellow'
-}
 
+
+
+
+
+
+function changeColor(elements) {
+    for (const element of elements){
+        element.style.backgroundColor = 'yellow'
+    }
+}
 
 
 /*

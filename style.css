@@ -32,12 +32,12 @@
     align-items: center;
     background-color: forestgreen;
     width: 500px;
-    height: 200px;
+    height: 150px;
 }
 
 .child {
     background-color: powderblue;
-    width: 160px;
+    width: 120px;
     height: 80px;
 }
 
