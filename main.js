@@ -1,5 +1,15 @@
+function changeColor(elements) {
+	for (const element of elements) {
+		element.style.backgroundColor = "yellow";
+	}
+}
+
+/////////////////////////
+////  DOM Traversal  ////
+/////////////////////////
+
 // Downwards
-//
+
 // document.getElementById // document only method
 // document.getElementsByClassName
 // document.getElementsByTagName
@@ -8,28 +18,21 @@
 // element.children
 
 // Upwards
-//
+
 // element.parentElement
 // element.closest
 
 // Sideways
-//
+
 // element.nextElementSibling
 // element.previousElementSibling
 // combine using parentElement, children, and index
 
-
-
-function changeColor(elements) {
-    for (const element of elements){
-        element.style.backgroundColor = 'yellow'
-    }
-}
-
+////////////////////
+////  Exercise  ////
+////////////////////
 
 /*
-Exercise
-
 Practice traversing the DOM with the methods taught in this lesson. Uncomment the additional HTML in the index.html file and then do these tasks:
 
     Select .characters with document.querySelector
@@ -43,7 +46,6 @@ Practice traversing the DOM with the methods taught in this lesson. Uncomment th
     Select Legolas from Glorfindel
     Select Arwen from Glorfindel
 */
-
 
 /*
 Exercise
