@@ -28,9 +28,9 @@ function changeColor(elements) {
 // element.previousElementSibling
 // combine using parentElement, children, and index
 
-////////////////////
-////  Exercise  ////
-////////////////////
+/////////////////////
+////  Exercises  ////
+/////////////////////
 
 /*
 Practice traversing the DOM with the methods taught in this lesson. Uncomment the additional HTML in the index.html file and then do these tasks:
@@ -47,9 +47,9 @@ Practice traversing the DOM with the methods taught in this lesson. Uncomment th
     Select Arwen from Glorfindel
 */
 
-/*
-Exercise
+// =======================
 
+/*
 Can you replicate the behavior of all of these CSS selectors using JavaScript?
 
 https://www.w3schools.com/cssref/css_selectors.asp
@@ -75,5 +75,4 @@ Attribute Selectors?
 Pseudo Elements?
 
 See https://developer.mozilla.org/en-US/docs/Web/API/Element#methods
-
 */
