@@ -44,8 +44,8 @@ Practice traversing the DOM with the methods taught in this lesson. Uncomment th
     Select .characters with document.querySelector
     Select .humans from .characters
     Select all humans with querySelectorAll, starting from .humans
-    Select all hobbits with children
-    Select Merry (the hobbit)
+    Select all hobbits with the "children" property of some element
+    Select Merry (the hobbit) 
     Select .enemies from Sauron
     Select the .characters div from Nazgûl
     Select Elrond from Glorfindel
