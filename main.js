@@ -56,6 +56,8 @@ Practice traversing the DOM with the methods taught in this lesson. Uncomment th
 // =======================
 
 /*
+OPTIONAL EXTRA CREDIT:
+
 Can you replicate the behavior of all of these CSS selectors using JavaScript?
 
 https://www.w3schools.com/cssref/css_selectors.asp
