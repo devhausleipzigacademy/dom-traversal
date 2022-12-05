@@ -53,6 +53,42 @@ Practice traversing the DOM with the methods taught in this lesson. Uncomment th
     Select Arwen from Glorfindel
 */
 
+const humansUL = document.querySelector(".humans");
+const eachHuman = humansUL.querySelectorAll("li");
+// changeColorMany(eachHuman);
+
+const hobbitsUL = document.querySelector(".hobbits");
+const eachHobbit = hobbitsUL.children;
+
+// changeColorMany(eachHobbit);
+
+const merry = hobbitsUL.children[2];
+// changeColorOne(merry);
+
+const enemiesUL = document.querySelector(".enemies");
+const sauron = enemiesUL.children[0];
+
+const enemiesAgain = sauron.closest(".enemies");
+// changeColorOne(enemiesAgain);
+
+const nazgul = enemiesUL.children[1];
+// changeColorOne(nazgul);
+
+const characters = nazgul.closest(".characters");
+// changeColorOne(characters);
+
+const glorfindel = document.querySelector(".elves > li:nth-child(2)");
+// changeColorOne(glorfindel);
+
+const elrond = glorfindel.parentElement.children[2];
+// changeColorOne(elrond);
+
+const legolas = glorfindel.parentElement.children[0];
+// changeColorOne(legolas);
+
+const arwen = glorfindel.parentElement.children[3];
+// changeColorOne(arwen);
+
 // =======================
 
 /*
