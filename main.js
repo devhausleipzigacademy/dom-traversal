@@ -1,20 +1,26 @@
-function changeColor(elements) {
+function changeColorMany(elements) {
 	for (const element of elements) {
 		element.style.backgroundColor = "yellow";
 	}
+}
+function changeColorOne(element) {
+	element.style.backgroundColor = "yellow";
 }
 
 /////////////////////////
 ////  DOM Traversal  ////
 /////////////////////////
 
-// Downwards
+// Universal (no direction)
 
 // document.getElementById // document only method
-// document.getElementsByClassName
-// document.getElementsByTagName
-// document.querySelector
-// document.querySelectorAll
+
+// Downwards
+
+// element.getElementsByClassName
+// element.getElementsByTagName
+// element.querySelector
+// element.querySelectorAll
 // element.children
 
 // Upwards
